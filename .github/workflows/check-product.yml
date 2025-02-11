@@ -22,7 +22,7 @@ jobs:
         run: npm install axios cheerio nodemailer dotenv
 
       - name: Run Check Script
-        run: node checkProduct.js
+        run: node check.js
         env:
           EMAIL_USER: ${{ secrets.EMAIL_USER }}
           EMAIL_PASS: ${{ secrets.EMAIL_PASS }}
