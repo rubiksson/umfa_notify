@@ -17,7 +17,7 @@ async function checkProduct() {
   const { data } = await axios.get(url);
   const $ = cheerio.load(data);
 
-  const optionExists = $('.wvs-style-squared li.button-variable-item-152').length > 0;
+  const optionExists = $('.wvs-style-squared li.button-variable-item-164').length > 0;
 
   // Colors for Console Output
   const blue = '\x1b[34m'; // Blue timestamp 🔵
